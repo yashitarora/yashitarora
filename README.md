@@ -1,6 +1,6 @@
 # Hi, I'm Yashit Arora 👋
 
-### 🎯 AI/ML Engineer | ML Intern @ NES Technologies | Open to Opportunities
+### 🎯 AI/ML Engineer | ML Intern @ NES Technologies | Anomaly Detection & Predictive Analytics
 
 <div align="center">
 
@@ -25,23 +25,42 @@ class YashitArora:
         
     def current_focus(self):
         return [
-            "🤖 Building ML pipelines for predictive maintenance",
-            "📊 Analyzing IoT sensor data for smart systems",
-            "🧠 Learning Deep Learning & MLOps",
-            "☀️ Exploring Computer Vision & NLP"
+            "🤖 Theft Anomaly Detection at NES Technologies",
+            "📊 Predictive Analytics with Real Datasets",
+            "🧠 Building ML Models for Business Problems",
+            "☀️ Learning Deep Learning & MLOps"
         ]
     
     def ask_me_about(self):
         return [
             "Python, Scikit-learn, Time-Series Analysis",
+            "Anomaly Detection & Predictive Analytics",
             "Machine Learning Model Development",
-            "Data Preprocessing & Feature Engineering",
-            "SQL Database Design"
+            "Data Preprocessing & Feature Engineering"
         ]
-    
-    def fun_fact(self):
-        return "🏏 Vice-Captain of College Cricket Team & Dance Competition Winner!"
 ```
+
+---
+
+## 💼 Experience
+
+### 🚀 Machine Learning Intern @ NES Technologies
+`Jun 2025 - Present`
+
+- Developing theft anomaly detection models using real datasets
+- Building predictive analytics solutions for business problems
+- Implementing ML pipelines for data analysis and model deployment
+
+---
+
+## 📜 Certifications
+
+| Certification | Issuer |
+|---------------|--------|
+| Data Analytics Job Simulation | Deloitte Australia (Forage) |
+| Technology Job Simulation | Deloitte Australia (Forage) |
+| GenAI Powered Data Analytics | Tata (Forage) |
+| What Is Generative AI? | LinkedIn Learning |
 
 ---
 
@@ -57,21 +76,8 @@ class YashitArora:
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
-
----
-
-## 💼 Experience
-
-### 🚀 Machine Learning Intern @ NES Technologies
-`Jun 2025 - Present`
-
-- Working on real-world ML projects and data analysis
-- Applying machine learning algorithms to solve business problems
-- Collaborating with team on data preprocessing and model development
 
 ---
 
@@ -93,8 +99,6 @@ Predictive maintenance system using NASA CMAPSS dataset. Achieves **92% accuracy
 - ✅ Regression & classification model comparison
 - ✅ Hyperparameter optimization (15% error reduction)
 
-**Tech:** `Python` `Scikit-learn` `Pandas` `Time-Series`
-
 [![View](https://img.shields.io/badge/View_Project-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashitarora/RUL_AIRCRAFT_ENGINE_PREDICITION)
 
 </td>
@@ -110,9 +114,6 @@ IoT-based energy consumption analysis using clustering and dimensionality reduct
 - ✅ K-Means clustering for pattern discovery
 - ✅ PCA for dimensionality reduction
 - ✅ Interactive energy dashboards
-- ✅ Peak consumption identification
-
-**Tech:** `K-Means` `PCA` `Pandas` `Matplotlib`
 
 [![View](https://img.shields.io/badge/View_Project-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashitarora/SMART-BIULDINGS_ENERGY_USAGE)
 
@@ -130,10 +131,7 @@ Secure platform for storing and verifying student certificates with complete CRU
 **Key Features:**
 - ✅ Relational database schema design
 - ✅ SQL queries & PL/SQL procedures
-- ✅ Frontend validation integration
 - ✅ 500+ student records management
-
-**Tech:** `SQL` `PL/SQL` `HTML` `CSS`
 
 [![View](https://img.shields.io/badge/View_Project-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashitarora/DBMS-CERTIFICATE-MANAGEMENT)
 
@@ -150,9 +148,6 @@ Personal AI assistant with wake word detection, voice commands, and Iron Man HUD
 - ✅ Wake word detection ("Hey JARVIS")
 - ✅ Voice command processing
 - ✅ Natural language understanding
-- ✅ Interactive HUD interface
-
-**Tech:** `Python` `Speech Recognition` `NLP`
 
 [![View](https://img.shields.io/badge/View_Project-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashitarora/JARVIS-AI)
 
@@ -178,11 +173,10 @@ Personal AI assistant with wake word detection, voice commands, and Iron Man HUD
 | Category | Achievement |
 |----------|-------------|
 | 💼 **Professional** | ML Intern @ NES Technologies |
+| 📜 **Certifications** | Deloitte, Tata, LinkedIn Learning |
 | 🏏 **Sports** | Inter-College Cricket Tournament Winner |
-| 🏏 **Sports** | College Cricket Series Winner |
 | 💃 **Arts** | Dance Competition — 1st Place |
 | 🎯 **Leadership** | Management Head — Backslash Computing Society |
-| 🎭 **Leadership** | Performance Head — Mudra Cultural Society |
 
 ---
 
@@ -204,6 +198,6 @@ Personal AI assistant with wake word detection, voice commands, and Iron Man HUD
 
 ### 💡 *"Turning data into decisions, one model at a time."*
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F500&center=true&vCenter=true&width=435&lines=AI/ML+Engineer;ML+Intern+@+NES+Technologies;Python+Developer;Data+Science+Enthusiast;Always+Learning!)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F500&center=true&vCenter=true&width=435&lines=AI/ML+Engineer;Anomaly+Detection+%26+Predictive+Analytics;ML+Intern+@+NES+Technologies;Python+Developer;Always+Learning!)
 
 </div>
