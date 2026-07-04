@@ -1,6 +1,6 @@
 # Hi, I'm Yashit Arora 👋
 
-### 🎯 AI/ML Engineer | Building Intelligent Systems | Open to Internships
+### 🎯 AI/ML Engineer | ML Intern @ NES Technologies | Open to Opportunities
 
 <div align="center">
 
@@ -61,6 +61,17 @@ class YashitArora:
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
+
+---
+
+## 💼 Experience
+
+### 🚀 Machine Learning Intern @ NES Technologies
+`Jun 2025 - Present`
+
+- Working on real-world ML projects and data analysis
+- Applying machine learning algorithms to solve business problems
+- Collaborating with team on data preprocessing and model development
 
 ---
 
@@ -166,6 +177,7 @@ Personal AI assistant with wake word detection, voice commands, and Iron Man HUD
 
 | Category | Achievement |
 |----------|-------------|
+| 💼 **Professional** | ML Intern @ NES Technologies |
 | 🏏 **Sports** | Inter-College Cricket Tournament Winner |
 | 🏏 **Sports** | College Cricket Series Winner |
 | 💃 **Arts** | Dance Competition — 1st Place |
@@ -192,6 +204,6 @@ Personal AI assistant with wake word detection, voice commands, and Iron Man HUD
 
 ### 💡 *"Turning data into decisions, one model at a time."*
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F500&center=true&vCenter=true&width=435&lines=AI/ML+Engineer;Python+Developer;Data+Science+Enthusiast;Open+to+Internships;Always+Learning!)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F500&center=true&vCenter=true&width=435&lines=AI/ML+Engineer;ML+Intern+@+NES+Technologies;Python+Developer;Data+Science+Enthusiast;Always+Learning!)
 
 </div>
