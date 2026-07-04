@@ -55,12 +55,15 @@ class YashitArora:
 
 ## 📜 Certifications
 
-| Certification | Issuer |
-|---------------|--------|
-| Data Analytics Job Simulation | Deloitte Australia (Forage) |
-| Technology Job Simulation | Deloitte Australia (Forage) |
-| GenAI Powered Data Analytics | Tata (Forage) |
-| What Is Generative AI? | LinkedIn Learning |
+| Certification | Issuer | Status |
+|---------------|--------|--------|
+| Data Analytics Job Simulation | Deloitte Australia (Forage) | ✅ Completed |
+| Technology Job Simulation | Deloitte Australia (Forage) | ✅ Completed |
+| GenAI Powered Data Analytics | Tata (Forage) | ✅ Completed |
+| What Is Generative AI? | LinkedIn Learning | ✅ Completed |
+| Python (Basic) | HackerRank | 🔲 In Progress |
+| SQL (Basic) | HackerRank | 🔲 In Progress |
+| Intro to Machine Learning | Kaggle | 🔲 In Progress |
 
 ---
 
@@ -168,14 +171,23 @@ Personal AI assistant with wake word detection, voice commands, and Iron Man HUD
 
 ---
 
-## 🏆 Achievements
+## 🎯 Currently Learning
+
+- 🔹 Advanced ML Algorithms & Model Optimization
+- 🔹 Deep Learning with TensorFlow/PyTorch
+- 🔹 MLOps & Model Deployment
+- 🔹 Time-Series Forecasting Techniques
+- 🔹 Anomaly Detection Methods (Isolation Forest, Autoencoders)
+
+---
+
+## 🏆 Achievements & Recognition
 
 | Category | Achievement |
 |----------|-------------|
-| 💼 **Professional** | ML Intern @ NES Technologies |
-| 📜 **Certifications** | Deloitte, Tata, LinkedIn Learning |
-| 🏏 **Sports** | Inter-College Cricket Tournament Winner |
-| 💃 **Arts** | Dance Competition — 1st Place |
+| 💼 **Professional** | ML Intern @ NES Technologies (Anomaly Detection) |
+| 🎓 **Academic** | B.Tech CSE @ Thapar University |
+| 📜 **Certifications** | Deloitte Analytics x2, Tata GenAI, LinkedIn Learning |
 | 🎯 **Leadership** | Management Head — Backslash Computing Society |
 
 ---
