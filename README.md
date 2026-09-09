@@ -44,7 +44,7 @@ I am a third-year Computer Science student specializing in the intersection of *
 **The Problem:** Simple sentiment analysis (Positive/Negative) is too blunt for nuanced user feedback.
 **The Solution:** Created a multi-class emotion classifier deployed via a professional Streamlit interface.
 **Technical Impact:** 
-- Built a full pipeline: \`Preprocessing\` $\rightarrow$ \`Feature Extraction\` $\rightarrow$ \`Model Selection\` $\rightarrow$ \`UI Deployment\`.
+- Built a full pipeline: \`Preprocessing\` $ightarrow$ \`Feature Extraction\` $ightarrow$ \`Model Selection\` $ightarrow$ \`UI Deployment\`.
 - Optimized model artifacts using **Joblib** for low-latency inference.
 - **Key Win:** Bridged the gap between a ML model and a user-facing product.
 
@@ -57,8 +57,8 @@ I am a third-year Computer Science student specializing in the intersection of *
 - [x] **Phase 1: Fundamentals** (DSA, DBMS, Python/C++ Proficiency)
 - [x] **Phase 2: ML Core** (Supervised/Unsupervised Learning, Scikit-Learn)
 - [x] **Phase 3: Application** (End-to-end deployment, FastAPI, Streamlit)
-- [ ] **Phase 4: Advanced AI (Current)** $\rightarrow$ Exploring **RAG** and **AI Agent** orchestration.
-- [ ] **Phase 5: Scale** $\rightarrow$ Deep diving into MLOps and Cloud GPU optimization.
+- [ ] **Phase 4: Advanced AI (Current)** $ightarrow$ Exploring **RAG** and **AI Agent** orchestration.
+- [ ] **Phase 5: Scale** $ightarrow$ Deep diving into MLOps and Cloud GPU optimization.
 
 ---
 
