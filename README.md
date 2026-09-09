@@ -1,215 +1,77 @@
-# Hi, I'm Yashit Arora 👋
+# Yashit Arora 
+**Software Engineer | AI & Machine Learning Specialist**
 
-### 🎯 AI/ML Engineer | ML Intern @ NES Technologies | Anomaly Detection & Predictive Analytics
+> Transforming complex data into production-ready intelligence. 
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yashit-arora)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashitarora)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arorayashit22@gmail.com)
-
-</div>
+I am a third-year Computer Science student specializing in the intersection of **Data Engineering and Predictive AI**. Rather than just building models, I focus on the entire lifecycle: from raw data ingestion and cleaning to model optimization and deployment.
 
 ---
 
-## 🧑‍💻 About Me
+## 🛠️ Technical Capabilities
 
-```python
-class YashitArora:
-    def __init__(self):
-        self.name = "Yashit Arora"
-        self.role = "AI/ML Engineer & CS Student"
-        self.university = "Thapar Institute of Engineering & Technology"
-        self.degree = "B.Tech in Computer Science (2024-2028)"
-        self.location = "New Delhi / Patiala, India"
-        
-    def current_focus(self):
-        return [
-            "🤖 Theft Anomaly Detection at NES Technologies",
-            "📊 Predictive Analytics with Real Datasets",
-            "🧠 Building ML Models for Business Problems",
-            "☀️ Learning Deep Learning & MLOps"
-        ]
-    
-    def ask_me_about(self):
-        return [
-            "Python, Scikit-learn, Time-Series Analysis",
-            "Anomaly Detection & Predictive Analytics",
-            "Machine Learning Model Development",
-            "Data Preprocessing & Feature Engineering"
-        ]
-```
+*Instead of a list, here is how I apply my tools to solve problems:*
+
+| Domain | Core Competencies | Primary Toolset |
+| :--- | :--- | :--- |
+| **Predictive AI** | Time-series forecasting, RUL Prediction, Anomaly Detection | \`Python\`, \`Scikit-Learn\`, \`PyTorch\`, \`NASA CMAPSS\` |
+| **Language AI** | Sentiment Analysis, Text Classification, RAG Pipelines | \`NLP\`, \`FastAPI\`, \`Streamlit\`, \`Joblib\` |
+| **Data Engineering** | Relational Schema Design, SQL Optimization, Data Cleaning | \`SQL (PL/SQL)\`, \`Pandas\`, \`NumPy\`, \`DBMS\` |
+| **Systems/Dev** | API Development, Containerization, Version Control | \`Git\`, \`Docker\`, \`C++\`, \`Linux\` |
 
 ---
 
-## 💼 Experience
+## 🚀 Engineering Case Studies
 
-### 🚀 Machine Learning Intern @ NES Technologies
-`Jun 2025 - Present`
+*Selected projects that demonstrate my ability to solve real-world technical constraints.*
 
-- Developing theft anomaly detection models using real datasets
-- Building predictive analytics solutions for business problems
-- Implementing ML pipelines for data analysis and model deployment
+### ⚡ [Industrial Smart Meter Analytics](https://github.com/yashitarora/nes-smart-meter-analytics)
+**The Problem:** Energy grids struggle with unpredictable load spikes and undetected meter failures.
+**The Solution:** Developed a forecasting and anomaly detection pipeline for DLMS smart meter data.
+**Technical Impact:** 
+- Implemented a modular source structure to handle large-scale industrial telemetry.
+- Containerized the environment using **Docker** for consistent deployment.
+- **Key Win:** Shifted the project from a research script to a deployable system.
 
----
+### ✈️ [Aircraft Engine RUL Predictor](https://github.com/yashitarora/RUL_AIRCRAFT_ENGINE_PREDICITION)
+**The Problem:** Unscheduled aircraft maintenance is costly and dangerous.
+**The Solution:** Built a regression system using the NASA CMAPSS dataset to predict Remaining Useful Life (RUL).
+**Technical Impact:** 
+- Engineered features from high-dimensional sensor data to capture degradation trends.
+- Utilized **Gradient Boosting** to achieve high predictive accuracy on non-linear failure patterns.
+- **Key Win:** Demonstrated the ability to handle "noisy" real-world sensor data.
 
-## 📜 Certifications
-
-| Certification | Issuer | Status |
-|---------------|--------|--------|
-| Data Analytics Job Simulation | Deloitte Australia (Forage) | ✅ Completed |
-| Technology Job Simulation | Deloitte Australia (Forage) | ✅ Completed |
-| GenAI Powered Data Analytics | Tata (Forage) | ✅ Completed |
-| What Is Generative AI? | LinkedIn Learning | ✅ Completed |
-| Python (Basic) | HackerRank | 🔲 In Progress |
-| SQL (Basic) | HackerRank | 🔲 In Progress |
-| Intro to Machine Learning | Kaggle | 🔲 In Progress |
-
----
-
-## 🛠️ Tech Stack & Tools
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
+### 🧠 [NLP Emotion Intelligence App](https://github.com/yashitarora/nlp-emotion-app)
+**The Problem:** Simple sentiment analysis (Positive/Negative) is too blunt for nuanced user feedback.
+**The Solution:** Created a multi-class emotion classifier deployed via a professional Streamlit interface.
+**Technical Impact:** 
+- Built a full pipeline: \`Preprocessing\` $\rightarrow$ \`Feature Extraction\` $\rightarrow$ \`Model Selection\` $\rightarrow$ \`UI Deployment\`.
+- Optimized model artifacts using **Joblib** for low-latency inference.
+- **Key Win:** Bridged the gap between a ML model and a user-facing product.
 
 ---
 
-## 📌 Featured Projects
+## 📈 Growth Roadmap & Intellectual Curiosity
 
-<table>
-<tr>
-<td width="50%">
+*I don't just learn technologies; I follow a trajectory.*
 
-#### 🛩️ Aircraft Engine RUL Prediction
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
-
-Predictive maintenance system using NASA CMAPSS dataset. Achieves **92% accuracy** in predicting remaining useful life of aircraft engines.
-
-**Key Features:**
-- ✅ Lag feature engineering from 21 sensor parameters
-- ✅ Rolling statistics & degradation trends
-- ✅ Regression & classification model comparison
-- ✅ Hyperparameter optimization (15% error reduction)
-
-[![View](https://img.shields.io/badge/View_Project-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashitarora/RUL_AIRCRAFT_ENGINE_PREDICITION)
-
-</td>
-<td width="50%">
-
-#### 🏢 Smart Building Energy Prediction
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
-
-IoT-based energy consumption analysis using clustering and dimensionality reduction. Optimizes building energy efficiency by **20%**.
-
-**Key Features:**
-- ✅ K-Means clustering for pattern discovery
-- ✅ PCA for dimensionality reduction
-- ✅ Interactive energy dashboards
-
-[![View](https://img.shields.io/badge/View_Project-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashitarora/SMART-BIULDINGS_ENERGY_USAGE)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### 📜 Certificate Management System
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
-
-Secure platform for storing and verifying student certificates with complete CRUD operations.
-
-**Key Features:**
-- ✅ Relational database schema design
-- ✅ SQL queries & PL/SQL procedures
-- ✅ 500+ student records management
-
-[![View](https://img.shields.io/badge/View_Project-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashitarora/DBMS-CERTIFICATE-MANAGEMENT)
-
-</td>
-<td width="50%">
-
-#### 🤖 JARVIS AI Assistant
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
-
-Personal AI assistant with wake word detection, voice commands, and Iron Man HUD interface.
-
-**Key Features:**
-- ✅ Wake word detection ("Hey JARVIS")
-- ✅ Voice command processing
-- ✅ Natural language understanding
-
-[![View](https://img.shields.io/badge/View_Project-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashitarora/JARVIS-AI)
-
-</td>
-</tr>
-</table>
+- [x] **Phase 1: Fundamentals** (DSA, DBMS, Python/C++ Proficiency)
+- [x] **Phase 2: ML Core** (Supervised/Unsupervised Learning, Scikit-Learn)
+- [x] **Phase 3: Application** (End-to-end deployment, FastAPI, Streamlit)
+- [ ] **Phase 4: Advanced AI (Current)** $\rightarrow$ Exploring **RAG** and **AI Agent** orchestration.
+- [ ] **Phase 5: Scale** $\rightarrow$ Deep diving into MLOps and Cloud GPU optimization.
 
 ---
 
-## 📊 GitHub Analytics
+## 💼 Professional Footprint
 
-<div align="center">
+**AI/ML Internship | NES Technologies Pvt Ltd**
+- Applied predictive modeling to smart metering data to improve energy reliability.
+- Focused on the intersection of industrial IoT and machine learning.
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=yashitarora&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashitarora&layout=compact&theme=radical&hide_border=true&langs_count=8" />
-
-</div>
-
----
-
-## 🎯 Currently Learning
-
-- 🔹 Advanced ML Algorithms & Model Optimization
-- 🔹 Deep Learning with TensorFlow/PyTorch
-- 🔹 MLOps & Model Deployment
-- 🔹 Time-Series Forecasting Techniques
-- 🔹 Anomaly Detection Methods (Isolation Forest, Autoencoders)
+**Education**
+- B.E. Computer Science, Thapar Institute of Engineering & Technology (3rd Year).
 
 ---
 
-## 🏆 Achievements & Recognition
-
-| Category | Achievement |
-|----------|-------------|
-| 💼 **Professional** | ML Intern @ NES Technologies (Anomaly Detection) |
-| 🎓 **Academic** | B.Tech CSE @ Thapar University |
-| 📜 **Certifications** | Deloitte Analytics x2, Tata GenAI, LinkedIn Learning |
-| 🎯 **Leadership** | Management Head — Backslash Computing Society |
-
----
-
-## 📫 Let's Connect!
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yashit-arora)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashitarora)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arorayashit22@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=yashitarora&color=blueviolet&style=for-the-badge)
-
-### 💡 *"Turning data into decisions, one model at a time."*
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F500&center=true&vCenter=true&width=435&lines=AI/ML+Engineer;Anomaly+Detection+%26+Predictive+Analytics;ML+Intern+@+NES+Technologies;Python+Developer;Always+Learning!)
-
-</div>
+## 📫 Connect
+[LinkedIn](YOUR_LINKEDIN_URL) | [Email](mailto:YOUR_EMAIL) | [Portfolio](https://yashitarora.github.io)
