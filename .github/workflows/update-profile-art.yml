@@ -1,0 +1,37 @@
+name: Update Profile Art
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Daily at midnight
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install Pillow opencv-python-headless numpy requests beautifulsoup4
+
+      - name: Fetch contributions
+        env:
+          GH_PROFILE_USER: ${{ github.repository_owner }}
+        run: python scripts/fetch_contributions.py
+
+      - name: Render heatmap
+        run: python scripts/render_heatmap_svg.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Update contribution heatmap [skip ci]"
+          file_pattern: 'contrib-heatmap.svg data/contributions.json'
