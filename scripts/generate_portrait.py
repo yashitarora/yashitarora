@@ -18,7 +18,6 @@ def generate_portrait():
     h, w = arr.shape[:2]
 
     # Tight crop around the person.
-    # Based on the provided script, these coordinates were tuned for the photo.
     x1, y1, x2, y2 = 185, 360, 425, 805
     crop = arr[y1:min(y2, h), x1:min(x2, w)].copy()
     ch, cw = crop.shape[:2]
@@ -49,43 +48,44 @@ def generate_portrait():
     composed = enhanced * alpha + canvas * (1 - alpha)
     composed = np.clip(composed, 0, 255).astype(np.uint8)
 
-    # 4. ASCII Conversion
-    COLS, ROWS = 100, 53
-    # Dense ASCII ramp for high detail
-    RAMP = '@#W$S%?*+;:,.'
-    # Note: Reversing it for dark-on-light or light-on-dark.
-    # For terminal look (light text on dark bg), we want bright areas = dense chars.
+    # 4. ASCII Conversion - Higher resolution for "Premium" feel
+    COLS, ROWS = 120, 65
     RAMP = " .'`:-=+*#%@"
 
     small = Image.fromarray(composed, 'L').resize((COLS, ROWS), Image.Resampling.LANCZOS)
     px = np.asarray(small).astype(np.float32) / 255.0
 
-    # Contrast curve to push shadows and highlights
-    px = np.power(px, 1.3)
+    # Adjust contrast curve for better facial definition
+    px = np.power(px, 1.2)
 
     rows = []
     for y in range(ROWS):
         line = ''
         for x in range(COLS):
             lum = px[y, x]
-            if lum >= 0.75: # Background threshold
+            if lum >= 0.70: # Slightly lower threshold to keep more hair/detail
                 ch = ' '
             else:
-                # Map luminance to RAMP
                 idx = int((1 - lum) * (len(RAMP) - 1) + 0.5)
                 ch = RAMP[max(0, min(len(RAMP) - 1, idx))]
             line += ch
         rows.append(line)
 
-    # 5. SVG Generation
-    # Visual style: Terminal Window
-    W = COLS * 8 + 40
-    H = ROWS * 15 + 90
-    PAD = 20
+    # 5. SVG Generation - Professional Terminal Window
+    char_w = 8.0
+    char_h = 15.0
+    content_w = COLS * char_w
+    content_h = ROWS * char_h
+    W = content_w + 60
+    H = content_h + 120
+    PAD = 30
     INK = '#c9d1d9'
     BG = '#0d1117'
     FRAME = '#30363d'
     TITLE_C = '#7d8590'
+
+    offset_x = (W - content_w) / 2
+    offset_y = 50
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">',
@@ -96,26 +96,19 @@ def generate_portrait():
     ]
 
     # Draw the ASCII art
-    # We remove textLength="800" and instead calculate a centering offset
-    # Character width is approx 8px for font-size 12.9
-    char_w = 8.0
-    content_w = COLS * char_w
-    offset_x = (W - content_w) / 2
-
     for ry, line in enumerate(rows):
-        y = 40 + ry * 15 + 11
-        rowy = 40 + ry * 15
+        y = offset_y + ry * char_h + 11
+        rowy = offset_y + ry * char_h
         safe = html.escape(line)
-        # Remove textLength and lengthAdjust to preserve natural character aspect ratio
         text = f'<text xml:space="preserve" x="{offset_x}" y="{y}" fill="{INK}" font-size="12.9">{safe}</text>'
 
         # Simple reveal animation
-        delay = ry * 0.03
-        parts.append(f'<clipPath id="r{ry}"><rect x="{offset_x}" y="{rowy}" width="{content_w}" height="15"><animate attributeName="width" from="0" to="{content_w}" begin="{delay:.3f}s" dur="0.2s" fill="freeze"/></rect></clipPath>')
+        delay = ry * 0.02
+        parts.append(f'<clipPath id="r{ry}"><rect x="{offset_x}" y="{rowy}" width="0" height="15"><animate attributeName="width" from="0" to="{content_w}" begin="{delay:.3f}s" dur="0.2s" fill="freeze"/></rect></clipPath>')
         parts.append(f'<g clip-path="url(#r{ry})">{text}</g>')
 
-    parts.append(f'<line x1="0" y1="{H-38}" x2="{W}" y2="{H-38}" stroke="{FRAME}"/>')
-    parts.append(f'<text x="{PAD}" y="{H-16}" fill="{TITLE_C}" font-size="13">yashitarora@github:~$ whoami <tspan fill="{INK}">Yashit Arora</tspan></text>')
+    parts.append(f'<line x1="0" y1="{H-40}" x2="{W}" y2="{H-40}" stroke="{FRAME}"/>')
+    parts.append(f'<text x="{PAD}" y="{H-20}" fill="{TITLE_C}" font-size="13">yashitarora@github:~$ whoami <tspan fill="{INK}">Yashit Arora</tspan></text>')
     parts.append('</svg>')
 
     OUT_PATH.write_text(''.join(parts), encoding='utf-8')
