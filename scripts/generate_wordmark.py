@@ -31,32 +31,26 @@ def generate_wordmark():
     ]
 
     # Main Wordmark text
-    # Use a larger font size with a subtle glow effect
     text_x = W / 2
-    text_y = H / 2 + 15
+    text_y = H / 2 + 10
 
-    # Glow effect
+    # Glow effect - refined for professional look
     parts.append(f'<filter id="glow" x="-20%" y="-20%" width="140%" height="140%">')
-    parts.append(f'  <feGaussianBlur stdDeviation="2" result="blur"/>')
+    parts.append(f'  <feGaussianBlur stdDeviation="3" result="blur"/>')
     parts.append(f'  <feComposite in="SourceGraphic" in2="blur" operator="over"/>')
     parts.append(f'</filter>')
 
-    # The Wordmark
-    parts.append(f'<text x="{text_x}" y="{text_y}" fill="{INK}" font-size="42" font-weight="bold" text-anchor="middle" filter="url(#glow)" style="letter-spacing: 4px;">')
+    # The Wordmark - Larger, bolder, and better spaced
+    parts.append(f'<text x="{text_x}" y="{text_y}" fill="{INK}" font-size="48" font-weight="800" text-anchor="middle" filter="url(#glow)" style="letter-spacing: 6px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;">')
     parts.append(f'  {TEXT}')
     parts.append(f'</text>')
 
-    # Terminal accent (underscore cursor)
-    cursor_x = text_x + (len(TEXT) * 15) # Approximate
-    # Since we are using text-anchor="middle", we need to calculate the end of the string.
-    # A better way is to use a separate element for the cursor.
-
-    # Calculate approx width of "YASHIT ARORA" in 42px monospace
-    char_width = 22 # Approx for monospace 42px
+    # Terminal accent (underscore cursor) - adjusted for 48px font
+    char_width = 24
     text_width = len(TEXT) * char_width
-    cursor_x = text_x + (text_width / 2) + 5
+    cursor_x = text_x + (text_width / 2) + 8
 
-    parts.append(f'<rect x="{cursor_x}" y="{text_y - 25}" width="12" height="30" fill="{ACCENT}">')
+    parts.append(f'<rect x="{cursor_x}" y="{text_y - 32}" width="14" height="35" fill="{ACCENT}">')
     parts.append(f'  <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />')
     parts.append(f'</rect>')
 

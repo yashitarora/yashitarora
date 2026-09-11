@@ -96,15 +96,22 @@ def generate_portrait():
     ]
 
     # Draw the ASCII art
+    # We remove textLength="800" and instead calculate a centering offset
+    # Character width is approx 8px for font-size 12.9
+    char_w = 8.0
+    content_w = COLS * char_w
+    offset_x = (W - content_w) / 2
+
     for ry, line in enumerate(rows):
         y = 40 + ry * 15 + 11
         rowy = 40 + ry * 15
         safe = html.escape(line)
-        text = f'<text xml:space="preserve" x="{PAD}" y="{y}" fill="{INK}" font-size="12.9" textLength="800" lengthAdjust="spacing">{safe}</text>'
+        # Remove textLength and lengthAdjust to preserve natural character aspect ratio
+        text = f'<text xml:space="preserve" x="{offset_x}" y="{y}" fill="{INK}" font-size="12.9">{safe}</text>'
 
         # Simple reveal animation
         delay = ry * 0.03
-        parts.append(f'<clipPath id="r{ry}"><rect x="{PAD}" y="{rowy}" width="0" height="15"><animate attributeName="width" from="0" to="800" begin="{delay:.3f}s" dur="0.2s" fill="freeze"/></rect></clipPath>')
+        parts.append(f'<clipPath id="r{ry}"><rect x="{offset_x}" y="{rowy}" width="{content_w}" height="15"><animate attributeName="width" from="0" to="{content_w}" begin="{delay:.3f}s" dur="0.2s" fill="freeze"/></rect></clipPath>')
         parts.append(f'<g clip-path="url(#r{ry})">{text}</g>')
 
     parts.append(f'<line x1="0" y1="{H-38}" x2="{W}" y2="{H-38}" stroke="{FRAME}"/>')
