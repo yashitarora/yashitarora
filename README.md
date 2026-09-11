@@ -1,16 +1,21 @@
 <div align="center">
 
 <!-- HERO SECTION -->
-<table border="0">
-  <tr align="center">
-    <td valign="top" width="40%">
-      <img src="portrait.svg" width="100%" alt="Yashit Arora — ASCII Portrait" />
+<!-- We use a table with no border and align="center" to keep the assets balanced on desktop -->
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr align="center" valign="middle">
+    <td width="45%" align="center">
+      <img src="portrait.svg" width="100%" style="max-width: 400px;" alt="Yashit Arora — ASCII Portrait" />
     </td>
-    <td valign="top" width="60%">
-      <img src="wordmark.svg" width="100%" alt="YASHIT ARORA — Wordmark" />
+    <td width="55%" align="center">
+      <img src="wordmark.svg" width="100%" style="max-width: 500px;" alt="YASHIT ARORA — Wordmark" />
       <br>
-      <p><code style="color: #7d8590;">yashit@github:~$</code> <b style="color: #c9d1d9;">AI/ML · DATA · SOFTWARE ENGINEERING</b></p>
-      <p style="color: #7d8590; font-style: italic;">Building intelligent systems from data, models and software.</p>
+      <p style="font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+        <span style="color: #7d8590;">yashit@github:~$</span> <b style="color: #c9d1d9;">AI/ML · DATA · SOFTWARE ENGINEERING</b>
+      </p>
+      <p style="color: #7d8590; font-style: italic; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+        Building intelligent systems from data, models and software.
+      </p>
       <br>
       <a href="https://yashitarora.github.io"><img src="https://img.shields.io/badge/Portfolio-yashitarora.github.io-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
       <a href="https://www.linkedin.com/in/yashit-arora-75977328a"><img src="https://img.shields.io/badge/LinkedIn-Yashit_Arora-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -24,16 +29,18 @@
 
 <!-- WHOAMI SECTION -->
 <div align="left">
-  <h3 style="color: #c9d1d9;"><code style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px;">> whoami</code></h3>
-  <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
-<b>name</b>        : Yashit Arora
-<b>role</b>        : Computer Science Student
-<b>focus</b>       : AI/ML | Data Analytics | Software Engineering
-<b>education</b>   : B.Tech Computer Science
-<b>institute</b>   : Thapar Institute of Engineering & Technology
-<b>location</b>     : India
-<b>interests</b>   : AI, ML, data, software systems
-<b>open_to</b>     : Internships | Collaborations | Opportunities
+  <h3 style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+    <span style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px; border: 1px solid #30363d;">> whoami</span>
+  </h3>
+  <pre style="background: #0d1117; color: #c9d1d9; padding: 20px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.5;">
+<b style="color: #39d353;">name</b>        : Yashit Arora
+<b style="color: #39d353;">role</b>        : Computer Science Student
+<b style="color: #39d353;">focus</b>       : AI/ML | Data Analytics | Software Engineering
+<b style="color: #39d353;">education</b>   : B.Tech Computer Science
+<b style="color: #39d353;">institute</b>   : Thapar Institute of Engineering & Technology
+<b style="color: #39d353;">location</b>     : India
+<b style="color: #39d353;">interests</b>   : AI, ML, data, software systems
+<b style="color: #39d353;">open_to</b>     : Internships | Collaborations | Opportunities
   </pre>
 </div>
 
@@ -41,10 +48,12 @@
 
 <!-- ABOUT ME -->
 <div align="left">
-  <h3 style="color: #c9d1d9;"><code style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px;">> about_me --verbose</code></h3>
-  <p style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+  <h3 style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+    <span style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px; border: 1px solid #30363d;">> about_me --verbose</span>
+  </h3>
+  <p style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.6; padding-left: 10px; border-left: 3px solid #39d353;">
     I am a Computer Science student dedicated to bridging the gap between raw data and intelligent applications. 
-    My work focuses on <b>Machine Learning</b>, <b>Predictive Analytics</b>, and <b>Software Engineering</b>, 
+    My work focuses on <b style="color: #39d353;">Machine Learning</b>, <b style="color: #39d353;">Predictive Analytics</b>, and <b style="color: #39d353;">Software Engineering</b>, 
     with a particular interest in time-series forecasting and anomaly detection for industrial systems.
     I enjoy solving real-world problems by building end-to-end pipelines—from feature engineering 
     and model development to deploying scalable applications.
@@ -55,12 +64,14 @@
 
 <!-- TECH STACK -->
 <div align="left">
-  <h3 style="color: #c9d1d9;"><code style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px;">> tech_stack --list</code></h3>
-  <p style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
-    <b style="color: #39d353;">Languages & Core:</b> <code>Python</code> <code>C++</code> <code>SQL</code> <code>PL/SQL</code> <code>Linux</code> <code>Git</code><br>
-    <b style="color: #39d353;">Data & ML:</b> <code>Pandas</code> <code>NumPy</code> <code>Scikit-learn</code> <code>PyTorch</code> <code>LightGBM</code> <code>NLP</code> <code>TF-IDF</code><br>
-    <b style="color: #39d353;">Deployment & Tools:</b> <code>Streamlit</code> <code>FastAPI</code> <code>Docker</code> <code>GitHub</code><br>
-    <b style="color: #39d353;">Specializations:</b> <code>Machine Learning</code> <code>Time-Series Forecasting</code> <code>Anomaly Detection</code> <code>Predictive Analytics</code> <code>Data Analytics</code> <code>Feature Engineering</code> <code>Database Systems</code>
+  <h3 style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+    <span style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px; border: 1px solid #30363d;">> tech_stack --list</span>
+  </h3>
+  <p style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.8;">
+    <b style="color: #39d353;">Languages & Core:</b> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Python</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">C++</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">SQL</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">PL/SQL</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Linux</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Git</code><br>
+    <b style="color: #39d353;">Data & ML:</b> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Pandas</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">NumPy</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Scikit-learn</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">PyTorch</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">LightGBM</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">NLP</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">TF-IDF</code><br>
+    <b style="color: #39d353;">Deployment & Tools:</b> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Streamlit</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">FastAPI</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Docker</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">GitHub</code><br>
+    <b style="color: #39d353;">Specializations:</b> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Machine Learning</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Time-Series Forecasting</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Anomaly Detection</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Predictive Analytics</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Data Analytics</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Feature Engineering</code> <code style="background: #161b22; color: #c9d1d9; border: 1px solid #30363d; padding: 2px 4px; border-radius: 3px;">Database Systems</code>
   </p>
 </div>
 
@@ -68,12 +79,14 @@
 
 <!-- FEATURED PROJECTS -->
 <div align="left">
-  <h3 style="color: #c9d1d9;"><code style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px;">> ls projects/featured</code></h3>
+  <h3 style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+    <span style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px; border: 1px solid #30363d;">> ls projects/featured</span>
+  </h3>
   
-  <table width="100%" border="0">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
     <tr valign="top">
-      <td width="33%">
-        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+      <td width="33%" align="center">
+        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.4; text-align: left;">
 ┌────────────────────────────┐
 │ <span style="color: #39d353;">> NES SMART METER</span>          │
 ├────────────────────────────┤
@@ -81,7 +94,7 @@
 │ for forecasting, anomaly   │
 │ detection & health monitoring│
 │                            │
-│ <b>Metrics (Reported):</b>   │
+│ <b style="color: #39d353;">Metrics (Reported):</b>   │
 │ MAPE: 0.72% | R²: 0.9997   │
 │ Anomalies: 2.43%           │
 │                            │
@@ -89,8 +102,8 @@
 └────────────────────────────┘
         </pre>
       </td>
-      <td width="33%">
-        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+      <td width="33%" align="center">
+        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.4; text-align: left;">
 ┌────────────────────────────┐
 │ <span style="color: #39d353;">> MeterIQ</span>                  │
 ├────────────────────────────┤
@@ -99,14 +112,14 @@
 │ load forecasting & decision│
 │ support using Indian data  │
 │                            │
-│ <b>Tech:</b> Python, ML, Data │
+│ <b style="color: #39d353;">Tech:</b> Python, ML, Data │
 │                            │
 │ <a href="https://github.com/yashitarora/ucs503p-202627odd-MeterIQ" style="color: #39d353;"><b>[VIEW PROJECT →]</b></a>
 └────────────────────────────┘
         </pre>
       </td>
-      <td width="33%">
-        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+      <td width="33%" align="center">
+        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.4; text-align: left;">
 ┌────────────────────────────┐
 │ <span style="color: #39d353;">> AIRCRAFT ENGINE RUL</span>      │
 ├────────────────────────────┤
@@ -115,7 +128,7 @@
 │ Focus on degradation trends│
 │ and rolling statistics.    │
 │                            │
-│ <b>Tech:</b> Gradient Boosting│
+│ <b style="color: #39d353;">Tech:</b> Gradient Boosting│
 │                            │
 │ <a href="https://github.com/yashitarora/RUL_AIRCRAFT_ENGINE_PREDICITION" style="color: #39d353;"><b>[VIEW PROJECT →]</b></a>
 └────────────────────────────┘
@@ -123,8 +136,8 @@
       </td>
     </tr>
     <tr valign="top">
-      <td>
-        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+      <td align="center">
+        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.4; text-align: left;">
 ┌────────────────────────────┐
 │ <span style="color: #39d353;">> EmotionSense</span>             │
 ├────────────────────────────┤
@@ -133,14 +146,14 @@
 │ UI. Accurate sentiment     │
 │ analysis.                  │
 │                            │
-│ <b>Acc:</b> 86.38% | F1: 0.81 │
+│ <b style="color: #39d353;">Acc:</b> 86.38% | F1: 0.81 │
 │                            │
 │ <a href="https://github.com/yashitarora/nlp-emotion-app" style="color: #39d353;"><b>[VIEW PROJECT →]</b></a>
 └────────────────────────────┘
         </pre>
       </td>
-      <td>
-        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+      <td align="center">
+        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.4; text-align: left;">
 ┌────────────────────────────┐
 │ <span style="color: #39d353;">> JARVIS-AI</span>                │
 ├────────────────────────────┤
@@ -149,14 +162,14 @@
 │ NLP commands, and web       │
 │ automation.                │
 │                            │
-│ <b>Tech:</b> Python, NLP, API │
+│ <b style="color: #39d353;">Tech:</b> Python, NLP, API │
 │                            │
 │ <a href="https://github.com/yashitarora/JARVIS-AI" style="color: #39d353;"><b>[VIEW PROJECT →]</b></a>
 └────────────────────────────┘
         </pre>
       </td>
-      <td>
-        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+      <td align="center">
+        <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.4; text-align: left;">
 ┌────────────────────────────┐
 │ <span style="color: #39d353;">> SMART BUILDING ENERGY</span>   │
 ├────────────────────────────┤
@@ -164,7 +177,7 @@
 │ K-Means and PCA to identify │
 │ peak usage and patterns.   │
 │                            │
-│ <b>Data:</b> 50K+ points     │
+│ <b style="color: #39d353;">Data:</b> 50K+ points     │
 │                            │
 │ <a href="https://github.com/yashitarora/SMART-BIULDINGS_ENERGY_USAGE" style="color: #39d353;"><b>[VIEW PROJECT →]</b></a>
 └────────────────────────────┘
@@ -178,8 +191,10 @@
 
 <!-- EXPERIENCE -->
 <div align="left">
-  <h3 style="color: #c9d1d9;"><code style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px;">> experience --current</code></h3>
-  <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+  <h3 style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+    <span style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px; border: 1px solid #30363d;">> experience --current</span>
+  </h3>
+  <pre style="background: #0d1117; color: #c9d1d9; padding: 20px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.5;">
 <b style="color: #39d353;">Machine Learning Intern</b> | NES Technologies
   - Worked with real-world industrial smart-meter data
   - Implemented predictive analytics and anomaly detection
@@ -192,8 +207,10 @@
 
 <!-- EDUCATION -->
 <div align="left">
-  <h3 style="color: #c9d1d9;"><code style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px;">> education --info</code></h3>
-  <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+  <h3 style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+    <span style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px; border: 1px solid #30363d;">> education --info</span>
+  </h3>
+  <pre style="background: #0d1117; color: #c9d1d9; padding: 20px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.5;">
 <b style="color: #39d353;">Thapar Institute of Engineering & Technology</b>
 B.Tech Computer Science | 2024 – 2028
   </pre>
@@ -203,8 +220,10 @@ B.Tech Computer Science | 2024 – 2028
 
 <!-- JOURNEY -->
 <div align="left">
-  <h3 style="color: #c9d1d9;"><code style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px;">> journey --map</code></h3>
-  <pre style="background: #0d1117; color: #c9d1d9; padding: 15px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+  <h3 style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+    <span style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px; border: 1px solid #30363d;">> journey --map</span>
+  </h3>
+  <pre style="background: #0d1117; color: #c9d1d9; padding: 20px; border: 1px solid #30363d; border-radius: 8px; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.5;">
 Fundamentals
     ↓
 DSA + DBMS + C++ + Python
@@ -227,7 +246,9 @@ Advanced AI / Agents / RAG
 
 <!-- CONTRIBUTIONS -->
 <div align="left">
-  <h3 style="color: #c9d1d9;"><code style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px;">> github_contributions --graph</code></h3>
+  <h3 style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+    <span style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px; border: 1px solid #30363d;">> github_contributions --graph</span>
+  </h3>
   <img src="contrib-heatmap.svg" width="100%" alt="GitHub contribution graph" />
 </div>
 
@@ -235,8 +256,10 @@ Advanced AI / Agents / RAG
 
 <!-- BEYOND CODE -->
 <div align="left">
-  <h3 style="color: #c9d1d9;"><code style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px;">> beyond_code</code></h3>
-  <p style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+  <h3 style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">
+    <span style="background: #161b22; color: #39d353; padding: 2px 6px; border-radius: 4px; border: 1px solid #30363d;">> beyond_code</span>
+  </h3>
+  <p style="color: #c9d1d9; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace'; line-height: 1.6; padding-left: 10px; border-left: 3px solid #39d353;">
     Exploring new technologies, solving complex puzzles, building side projects, and learning the internals of AI systems.
   </p>
 </div>
@@ -244,7 +267,7 @@ Advanced AI / Agents / RAG
 <br>
 
 <div align="center">
-  <code style="color: #7d8590;">Build. Learn. Solve. Repeat.</code>
+  <code style="color: #7d8590; font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace';">Build. Learn. Solve. Repeat.</code>
 </div>
 
 </div>
